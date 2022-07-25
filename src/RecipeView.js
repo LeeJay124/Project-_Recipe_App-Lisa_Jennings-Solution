@@ -1,10 +1,10 @@
 import React from "react";
 
-function RecipeView({recipe, key, deleteRecipe}){
+function RecipeView({recipe, deleteRecipe}){
   
   return(
     
-      <tr key={key} className="zebra">
+      <tr  className="zebra">
         <td>{recipe.name}</td>
         <td>{recipe.cuisine}</td>
         <td><img src={recipe.photo} alt={recipe.name}/></td>
